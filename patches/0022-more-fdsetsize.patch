@@ -1,0 +1,13 @@
+diff --git a/include/sys/select.h b/include/sys/select.h
+index b3bab1d5..911632d1 100644
+--- a/include/sys/select.h
++++ b/include/sys/select.h
+@@ -15,7 +15,7 @@ extern "C" {
+ 
+ #include <bits/alltypes.h>
+ 
+-#define FD_SETSIZE 1024
++#define FD_SETSIZE 32768
+ 
+ typedef unsigned long fd_mask;
+ 
